@@ -1,0 +1,26 @@
+.tasksHeaderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+.createdTasks strong {
+  color: var(--blue);
+}
+
+.tasksHeaderWrapper .finishedTasks strong {
+  color: var(--purple);
+}
+
+.tasksHeaderWrapper span {
+  margin-left: 0.5rem;
+  padding: 0.125rem .5rem;
+  color: var(--gray-100);
+  font-size: 0.75rem;
+  font-weight: strong;
+  border-radius: 3rem;
+  background: var(--gray-400);
+}
